@@ -1,4 +1,4 @@
-📌 Overview
+# Overview
 
 The Twitter Scraper is a Python + Streamlit web application that allows users to scrape live tweets from Twitter without using the official API. It provides a simple and interactive interface to extract real-time tweets, hashtags, and trends directly from Twitter using Selenium automation and ProxyMesh for smooth and reliable access.
 
@@ -24,7 +24,7 @@ Helping marketers, researchers, or journalists analyze live trends directly from
 
 Providing a lightweight, front-end-driven solution that displays scraped data instantly — no complex backend setup required.
 
-🛠️ Tech Stack
+# Tech Stack
 
 Language: Python
 
@@ -38,7 +38,7 @@ Environment Management: Python-dotenv
 
 Database (optional): MongoDB (via PyMongo)
 
-⚙️ How It Works
+# How It Works
 
 Loads credentials (Twitter username, password, proxy keys) from .env file.
 
@@ -67,12 +67,12 @@ cd twitter-scraper
 # Install dependencies
 pip install -r requirements.txt
 
-# Create a .env file
-# Add your credentials like:
-# TWITTER_USERNAME=your_username
-# TWITTER_PASSWORD=your_password
-# PROXY_MESH_API_KEY=your_key
-# MONGODB_URI=your_mongo_uri (optional)
+ Create a .env file
+ Add your credentials like:
+ TWITTER_USERNAME=your_username
+ TWITTER_PASSWORD=your_password
+ PROXY_MESH_API_KEY=your_key
+ MONGODB_URI=your_mongo_uri (optional)
 
 # Run the Streamlit app
 streamlit run app.py
